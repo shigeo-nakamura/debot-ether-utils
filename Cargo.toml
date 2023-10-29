@@ -1,0 +1,17 @@
+[package]
+name = "debot-ether-utils"
+version = "0.1.1"
+authors = ["Shigeo NAKAMURA <nakamura_shigeo@yahoo.com>"]
+edition = "2021"
+description = "Utility functions for evm transactions"
+documentation = "https://docs.rs/debot-ether-utils/"
+homepage = "https://crates.io/crates/debot-ether-utils"
+repository = "https://github.com/shigeo-nakamura/debot-ether-utils"
+license = "MIT"
+
+[dependencies]
+ethers = { version = "2.0", features = ["legacy"] }
+ethers-middleware = "2.0"
+async-trait = "0.1.68"
+log = "0.4.17"
+anyhow = "1.0.71"
